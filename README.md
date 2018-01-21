@@ -20,7 +20,7 @@ __This script code has been factored to be deployed on AWS Lambda__
   `/slack_deployer/slack_token`
 - Create a zip of this package
 
-  `zip -r --store slack_announcer.zip slack_announcer`
+  `zip -r slack_announcer.zip slack_announcer`
 - upload the zip on AWS Lambda
 
 ## Slack command usage
