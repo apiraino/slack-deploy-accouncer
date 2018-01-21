@@ -26,7 +26,8 @@ __This script code has been factored to be deployed on AWS Lambda__
 ## Slack command usage
 
 `/deploy help` for a quick syntax help
-`/deploy <world> <component> <environment> <branch>`
+
+`/deploy <world> <component> <environment> <branch>` full command
 
 ## Notes
 This repo __can't__ be simply copied and pasted for your use case, it needs to be adapted. 'Twas just a toy project for a NonStopHacking [@Mittelab](https://www.mittelab.org). But it should get you started.
