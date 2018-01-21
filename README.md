@@ -29,7 +29,7 @@ __This script code has been factored to be deployed on AWS Lambda__
 `/deploy <world> <component> <environment> <branch>`
 
 ## Notes
-This repo __can't__ be simply copied and pasted for your use case, it needs to be adapted. 'Twas just a toy project for a hackaton [@Mittelab](https://www.mittelab.org). But it should get you started.
+This repo __can't__ be simply copied and pasted for your use case, it needs to be adapted. 'Twas just a toy project for a NonStopHacking [@Mittelab](https://www.mittelab.org). But it should get you started.
 
 ## References
 
