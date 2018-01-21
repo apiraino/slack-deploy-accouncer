@@ -121,7 +121,10 @@ def lambda_handler(event, context):
     if params['token'][0] != SLACK_TOKEN:
         resp = 'Invalid token'
     else:
-        text = params['text'][0]
+        try:
+            text = params['text'][0]
+        except KeyError:
+            return 'Unsure on what to do? Type `/deploy help`'
         logging.info(text)
         if text == 'help':
             return CMD_HELP
