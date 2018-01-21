@@ -30,3 +30,9 @@ __This script code has been factored to be deployed on AWS Lambda__
 
 ## Notes
 This repo __can't__ be simply copied and pasted for your use case, it needs to be adapted. 'Twas just a toy project for a hackaton [@Mittlab](https://www.mittelab.org). But it should get you started.
+
+## References
+
+* [Slack chat.postMessage API](https://api.slack.com/methods/chat.postMessage)
+
+* [Slack chat post message tester](https://api.slack.com/methods/chat.postMessage/test)
